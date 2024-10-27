@@ -1,0 +1,75 @@
+.body{
+   background-color: aliceblue;
+}
+.container-password{
+    max-width:400px;
+    background-color: beige;
+    margin:50px  auto;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px blanchedalmond;
+
+}
+h1{
+    color: blueviolet;
+    box-shadow: 0px 10px 10px blanchedalmond;
+    text-align: center;
+   
+}
+.group-input,.group-checkbox,.result{
+    margin-bottom: 8px;
+}
+.group-checkbox input{
+    margin-right: 6px;
+}
+.group-checkbox{
+    display: flex;
+    align-items: center;
+}
+.group-input label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+input[type="number"]{
+    width: 96%;
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    outline: blue;
+}
+.gen{
+    background-color: rgb(49, 49, 255);
+    padding: 7px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.gen:hover{
+    background-color: blue;
+}
+.result{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    overflow: hidden;
+
+}
+input[type="text"]{
+    border: none;
+    flex: 1;
+    padding: 10px;
+    border-radius: 2px;
+    outline: none;
+}
+
+.btn-cpy{
+    border: none;
+    background-color: rgb(23, 182, 23);
+    border-radius: 8px;
+}
+.btn-cpy:hover{
+    background-color:green;
+}
+    
